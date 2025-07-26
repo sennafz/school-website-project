@@ -27,6 +27,7 @@ header .container-pc {
 header .container-pc .content-title .title {
     font-size: 15px;
     font-weight: 800;
+    color: #229983;
 }
 
 header .container-pc .content-links {
@@ -39,6 +40,7 @@ header .container-pc .content-links {
 header .container-pc .content-links .link {
     font-size: 15px;
     text-decoration: none;
+    color: black;
 }
 
 header .container-pc .content-links .search-button {
@@ -60,7 +62,7 @@ header .container-pc .content-links .menu {
     justify-content: center;
     flex-direction: column;
     position: relative;
-    padding: 30px 0;
+    padding: 0;
 }
 
 .container-about .content-banner {
@@ -99,7 +101,7 @@ header .container-pc .content-links .menu {
     place-items: center;
     grid-template-columns: repeat(3, 1fr);
     max-width: 1100px;
-    margin: 45px auto;
+    margin: 30px auto;
     padding: 15px;
     grid-gap: 15px;
 }
@@ -141,9 +143,11 @@ header .container-pc .content-links .menu {
     font-size: 15px;
     border-radius: 16px;
     position: absolute;
-    top: 280px;
+    top: 250px;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: #229983;
+    color: white;
 }
 
 .container-gallery {
@@ -197,6 +201,8 @@ header .container-pc .content-links .menu {
     border: none;
     border-radius: 16px;
     padding: 10px 25px;
+    color: white;
+    background-color: #229983;
 }
 
 .container-contact {
@@ -259,7 +265,7 @@ header .container-pc .content-links .menu {
     text-decoration: none;
     width: 35px;
     height: 35px;
-    background-color: black;
+    background-color: #11593F;
     border-radius: 50%;
     color: white;
 }
