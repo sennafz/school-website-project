@@ -265,7 +265,7 @@ header .container-pc .content-links .menu {
     text-decoration: none;
     width: 35px;
     height: 35px;
-    background-color: #11593F;
+    background-color: black;
     border-radius: 50%;
     color: white;
 }
@@ -407,6 +407,8 @@ footer .container-main .content-links .link {
 
     .container-gallery {
         height: auto;
+        margin-top: 100px;
+        margin-bottom: 10px;
     }
 
     .container-gallery .border {
@@ -431,7 +433,13 @@ footer .container-main .content-links .link {
         text-align: center;
     }
 
-    .container-contact .border .content-details {
+    .container-contact {
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 30px auto;
+    }
+
+    .container-contact .content-details {
         padding: 0;
     }
 
