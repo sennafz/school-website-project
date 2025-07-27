@@ -30,6 +30,10 @@ header .container-pc .content-title .title {
     color: #229983;
 }
 
+header .container-pc .content-title .title br {
+    display: none;
+}
+
 header .container-pc .content-links {
     display: flex;
     align-items: center;
@@ -450,5 +454,9 @@ footer .container-main .content-links .link {
 
     footer .container-main .content-copy .text {
         font-size: 12.5px;
+    }
+
+    header .container-pc .content-title .title {
+        display: none;
     }
 }
