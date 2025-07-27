@@ -145,7 +145,7 @@ header .container-pc .content-links .menu {
     height: 50px;
     border: none;
     font-size: 15px;
-    border-radius: 16px;
+    border-radius: 8px;
     position: absolute;
     top: 250px;
     left: 50%;
@@ -203,9 +203,9 @@ header .container-pc .content-links .menu {
 .container-gallery .content-details .blank {
     height: 50px;
     border: none;
-    border-radius: 16px;
-    padding: 10px 25px;
+    padding: 10px 20px;
     color: white;
+    border-radius: 8px;
     background-color: #229983;
 }
 
@@ -380,12 +380,26 @@ footer .container-main .content-links .link {
         top: 450px;
     }
 
+    .container-contact {
+        margin: 50px 0;
+    }
+
     .container-about .content-banner .details .title,
-    .container-about .content-banner .details .desc,
+    .container-about .content-banner .details .desc {
+        font-size: 15px;
+        text-align: center;
+    }
+
     .container-contact .content-details .title,
     .container-contact .content-details .desc {
         font-size: 15px;
         text-align: center;
+    }
+
+    .container-contact .content-details .list-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .container-about .content-post {
@@ -393,16 +407,13 @@ footer .container-main .content-links .link {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        gap: 115px;
-    }
-
-    .container-about .content-post .box {
-        gap: 15px;
+        gap: 100px;
     }
 
     .container-about .content-post .box {
         width: 100%;
         height: 250px;
+        gap: 15px;
     }
 
     .container-about .content-post .box .banner {
@@ -411,7 +422,7 @@ footer .container-main .content-links .link {
         justify-content: center;
         width: 100%;
         padding: 0;
-        height: 225px;
+        height: 200px;
     }
 
     .container-gallery {
@@ -442,12 +453,6 @@ footer .container-main .content-links .link {
         text-align: center;
     }
 
-    .container-contact {
-        align-items: flex-start;
-        justify-content: flex-start;
-        margin: 30px auto;
-    }
-
     .container-contact .content-details {
         padding: 0;
     }
@@ -456,7 +461,7 @@ footer .container-main .content-links .link {
         font-size: 12.5px;
     }
 
-    header .container-pc .content-title .title {
-        display: none;
+    header {
+        padding: 20px 15px;
     }
 }
