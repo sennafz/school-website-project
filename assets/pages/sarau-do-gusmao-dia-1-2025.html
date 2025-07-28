@@ -3,12 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site oficial do CETI Dr. José Gusmão, criado por alunos para armazenar conteúdos que não são publicados no Instagram oficial da escola.">
-    <meta name="keywords" content="CETI Dr. José Gusmão, site oficial, escola técnica, ensino médio, educação, repositório do Gusmão, Gusmão, Colônia do Piauí, Piauí, Instagram do Gusmão, escola pública, CETI Dr. José Gusmão Instagram, Seduc Piauí, marketing digital, desenvolvimento de jogos digitais, Matheus Sena">
+    <meta name="description" content="Veja os registros do primeiro dia do Sarau 2025 no CETI Dr. José Gusmão, com apresentações teatrais, homenagens, pinturas e até realidade aumentada.">
+    <meta name="keywords" content="Sarau do Gusmão, CETI Dr. José Gusmão, apresentações escolares, teatro escolar, homenagens na escola, realidade aumentada, pinturas de alunos, evento escolar 2025, Administração CETI, primeiro ano Administração, Colônia do Piauí, projetos escolares, atividades escolares, Matheus Sena">
     <meta name="google-site-verification" content="Wh3LHZ-IswVhmOTF6KXT-TT3pSzgCkfujzTaD9s8gIk" />
     <script src="https://kit.fontawesome.com/cdf1e7020d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/sarau-do-gusmao-dia-1-2025.css">
-    <title>CETI Dr. José Gusmão</title>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Sarau do Gusmão, dia 1 – Teatro, Homenagens, Pinturas e Realidade Aumentada",
+            "image": "https://sennafz.github.io/cetidrjosegusmao/assets/posts/sarau-dia.jpg",
+            "author": {
+                "@type": "Person",
+                "name": "Matheus Sena"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "CETI Dr. José Gusmão"
+            },
+            "datePublished": "2025-07-27"
+        }
+    </script>
+    <title>Sarau do Gusmão 2025 – Teatro, Homenagens e Realidade Aumentada | CETI Dr. José Gusmão</title>
 </head>
 <body>
     <header>
@@ -44,32 +61,40 @@
         <article>
             <header>
                 <section class="details-banner">
-                    <img src="../posts/sarau-dia.jpg" alt="Registro das alunas do primeiro ano do curso de Administração (ADM)." class="banner">
+                    <img src="../posts/sarau-dia.jpg" alt="Alunas do primeiro ano de Administração se apresentando no Sarau 2025 do CETI Dr. José Gusmão" class="banner">
                     <p class="desc">Foto das alunas do 1º ano de Administração (ADM).</p>
                 </section>
                 <h1 class="title">Sarau do Gusmão, dia 1 – Teatro, Homenagens, Pinturas e Realidade Aumentada</h1>
                 <p class="desc">O nosso Sarau de 2025 no Gusmão rendeu ótimos momentos e experiências, com apresentações de trabalhos produzidos por todas as turmas. O projeto precisou de dois dias para ser totalmente apresentado. A seguir, algumas fotos do projeto no primeiro dia.</p>
-                <p class="info"><time datetime="2025-07-27"></time><span class="author">Por Matheus Sena | @senna.fz</span>, 27 Jun 2025.</p>
+                <p class="info"><span class="author">Por Matheus Sena | @senna.fz</span>, <time datetime="2025-07-27">27 Jun 2025.</time></p>
                 <ul class="list-networks">
                     <li>
-                        <a href="https://wa.me/SEUNUMERO" class="link" target="_blank" rel="noopener noreferrer">
+                        <a href="https://wa.me/+558999024887" class="link" target="_blank" rel="noopener noreferrer">
                             <button class="blank-w">
                                 <img src="../pages/media/svg/whatsapp.svg" alt="WhatsApp">
                             </button>
                         </a>
                     </li>
                     <li>
-                        <a href="https://instagram.com/SEUUSUARIO" class="link" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/ceti_gusmao01/" class="link" target="_blank" rel="noopener noreferrer">
                             <button class="blank-i">
                                 <img src="../pages/media/svg/instagram.svg" alt="Instagram">
                             </button>
                         </a>
                     </li>
                     <li>
-                        <a href="https://example.com/compartilhar" class="link" target="_blank" rel="noopener noreferrer">
+                        <a href="" class="link" rel="noopener noreferrer">
                             <button class="blank-c">
-                                <img src="../pages/media/svg/share.svg" alt="Compartilhar">
+                                <img onclick="copyURL()" src="../pages/media/svg/share.svg" alt="Compartilhar">
                             </button>
+                            <script>
+                            function copyURL() {
+                                const url = window.location.href;
+                                navigator.clipboard.writeText(url)
+                                .then(() => alert("URL copiada!"))
+                                .catch(err => alert("Erro ao copiar: " + err));
+                            }
+                            </script>
                         </a>
                     </li>
                 </ul>
