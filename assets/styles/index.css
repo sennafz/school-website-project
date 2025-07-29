@@ -75,6 +75,8 @@ header .container-pc .content-links .menu {
     justify-content: center;
     flex-direction: column;
     background-color: whitesmoke;
+    position: relative;
+    overflow: hidden;
     width: 100%;
     height: 250px;
     gap: 15px;
@@ -85,6 +87,7 @@ header .container-pc .content-links .menu {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    z-index: 1000;
     width: 500px;
     gap: 15px;
 }
@@ -93,11 +96,20 @@ header .container-pc .content-links .menu {
     font-size: 18px;
     font-size: 800;
     text-align: center;
+    color: white;
 }
 
 .container-about .content-banner .details .desc {
     font-size: 15px;
     text-align: center;
+    color: white;
+}
+
+.container-about .content-banner .background  {
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    filter: brightness(40%);
 }
 
 .container-about .content-post {
@@ -158,7 +170,7 @@ header .container-pc .content-links .menu {
     top: 250px;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #229983;
+    background-color: #66BB6A ;
     color: white;
 }
 
@@ -377,7 +389,7 @@ footer .container-main .content-links .link {
 
 @media (max-width: 650px) {
     .container-about .content-banner {
-        height: 450px;
+        height: 350px;
     }
 
     .container-about .content-banner .details {
@@ -389,11 +401,11 @@ footer .container-main .content-links .link {
 
     .container-about .follow-us {
         width: 200px;
-        top: 450px;
+        top: 350px;
     }
 
     .container-contact {
-        margin: 50px 0;
+        margin: 15px 0;
     }
 
     .container-about .content-banner .details .title,
@@ -419,7 +431,15 @@ footer .container-main .content-links .link {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        gap: 30px;
+        gap: 15px;
+    }
+    .container-about .content-post .box {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        height: 150px;
+        gap: 15px;
     }
 
     .container-about .content-post .box .content-details {
@@ -430,9 +450,9 @@ footer .container-main .content-links .link {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 100%;
+        width: 150px;
         padding: 0;
-        height: 200px;
+        height: 150px;
     }
 
     .container-gallery {
