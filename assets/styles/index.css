@@ -353,6 +353,14 @@ footer .container-main .content-copy .copy {
         gap: 5px;
     }
 
+    .container-news {
+        margin: 25px auto;
+    }
+
+    .container-prog {
+        margin: 50px auto;
+    }
+
     .container-start .content-details .title,
     .container-start .content-details .desc {
         font-size: 15px;
