@@ -72,7 +72,7 @@ header .container-main .content-menu {
 
 .container-start {
     background-color: #F3F4F6;
-    padding: 100px 15px;
+    padding: 100px 0;
 }
 
 .container-start .content-details {
@@ -298,7 +298,6 @@ footer .container-main .content-copy .copy {
 }
 
 @media (max-width: 750px) {
-
     header .container-main .list-links,
     footer .container-main .list-links {
         display: none;
@@ -342,11 +341,34 @@ footer .container-main .content-copy .copy {
 
 @media (max-width: 530px) {
     .container-gallery .content-main .background,
-    .container-prog .content-main .content-details {
-        width: 100%;
-    }
-
+    .container-prog .content-main .content-details,
     .container-gallery .content-main .content-details {
         width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .container-title,
+    .container-start .content-details {
+        gap: 5px;
+    }
+
+    .container-start .content-details .title,
+    .container-start .content-details .desc {
+        font-size: 15px;
+    }
+    
+    .container-news .content-main {
+        gap: 25px;
+    }
+
+
+    .container-news .content-main .content-box .background {
+        height: 200px;
+    }
+
+    .container-news .content-main .content-box .content-details {
+        height: auto;
+        gap: 10px;
     }
 }
