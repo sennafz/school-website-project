@@ -219,7 +219,6 @@ footer .container-main .content-copy .copy {
 }
 
 @media (max-width: 750px) {
-
     header .container-main .list-links,
     footer .container-main .list-links {
         display: none;
@@ -236,7 +235,7 @@ footer .container-main .content-copy .copy {
 
     .container-post article .container-main,
     .container-post article .container-main header {
-        gap: 15px;
+        gap: 20px;
     }
 
     .container-post article .container-main header .title {
@@ -278,10 +277,14 @@ footer .container-main .content-copy .copy {
 }
 
 @media (max-width: 450px) {
-
     .container-title,
     .container-start .content-details {
         gap: 5px;
+    }
+
+    .container-start .content-details .title,
+    .container-start .content-details .desc {
+        font-size: 15px;
     }
 
     .container-post article .container-main .background {
