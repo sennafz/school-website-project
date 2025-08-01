@@ -74,25 +74,32 @@
                     <span class="date flex-item">Por Matheus Sena | @senna.fz, <time datetime="2025-07-30">30 Jun 2025</time>.</span>
                     <ul class="list-networks flex-item">
                         <li>
-                            <a href="" target="_blank" class="link">
+                            <a href="https://www.instagram.com/ceti_gusmao01/" target="_blank" class="link">
                                 <button class="blank">
                                     <img src="media/svg/instagram.svg" alt="Ícone do Instagram" class="icon">
                                 </button>
                             </a>
                         </li>
                         <li>
-                            <a href="" target="_blank" class="link">
+                            <a href="https://wa.me/+5589999024887" target="_blank" class="link">
                                 <button class="blank">
                                     <img src="media/svg/whatsapp.svg" alt="Ícone do WhatsApp" class="icon">
                                 </button>
                             </a>
                         </li>
                         <li>
-                            <a href="" target="_blank" class="link">
+                            <a onclick="copy()" target="_blank" class="link">
                                 <button class="blank">
                                     <img src="media/svg/share.svg" alt="Ícone de Compartilhar" class="icon">
                                 </button>
                             </a>
+                            <script>
+                                function copy() {
+                                    navigator.clipboard.writeText(window.location.href)
+                                    .then(() => alert('URL copiada!'))
+                                    .catch(() => alert('Erro ao copiar URL.'));
+                                }
+                            </script>
                         </li>
                     </ul>
                 </header>
